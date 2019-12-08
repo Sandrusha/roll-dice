@@ -28,7 +28,7 @@ function winOrLose(diceInfoLeft, diceInfoRight) {
     var resolution = document.getElementById("resolution");
 
     if (diceInfoLeft < diceInfoRight) {
-        resolution.innerHTML = "You Lose!";
+        resolution.innerHTML = "You Lose!!!";
     } else if (diceInfoLeft === diceInfoRight) {
         resolution.innerHTML = "Roll Again!"
     } else {
