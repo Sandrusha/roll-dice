@@ -29,9 +29,12 @@ function winOrLose(diceInfoLeft, diceInfoRight) {
 
     if (diceInfoLeft < diceInfoRight) {
         resolution.innerHTML = "You Lose!!!";
+        resolution.style.color = "#c0392b";
     } else if (diceInfoLeft === diceInfoRight) {
         resolution.innerHTML = "Roll Again!"
+        resolution.style.color = "#2980b9";
     } else {
         resolution.innerHTML = "You Win!"
+        resolution.style.color = "#27ae60";
     }
 }
